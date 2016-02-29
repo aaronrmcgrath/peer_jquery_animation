@@ -25,7 +25,7 @@ function appendDom(randomID, randomFt, randomPrice) {
 }
 
 function buttonSlide() {
-  $(this).parent().slideUp();
+  $(this).parent().slideUp(250);
 }
 
 function randomNumber(min, max) {

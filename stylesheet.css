@@ -5,7 +5,7 @@ html, body, h1, h2, h3, ol, ul, li, a {
 }
 
 html {
-  background-color: #b7907c;
+  background-color: #8e6a55;
 }
 
 body {
@@ -15,11 +15,17 @@ body {
 .create-button {
   margin: 10px 0 10px 0;
   font-size: 20px;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
   color: white;
   border-radius: 5px;
   background-color: grey;
-  border-style: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.create-button:active {
+  background-color: black;
 }
 
 .properties {
@@ -29,13 +35,17 @@ body {
 }
 
 .property {
-  padding: 5px 5px 5px 5px;
+  padding: 15px 5px 15px 5px;
   background-color: #aa8c5a;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   border-radius: 5px;
   margin: 10px 0 10px 0;
+}
+
+.property:hover {
+  background-color: #897451;
 }
 
 .property p {
@@ -55,4 +65,8 @@ body {
   border-radius: 5px;
   background-color: grey;
   border-style: none;
+}
+
+.remove:active {
+  background-color: black;
 }
